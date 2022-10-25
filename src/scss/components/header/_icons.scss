@@ -1,0 +1,9 @@
+.nav-icons_list {
+    display: flex;
+    margin-left: 61px;
+    align-items: center;
+}
+
+.nav-icons_item:not(:last-child) {
+    margin-right: 12px;
+}

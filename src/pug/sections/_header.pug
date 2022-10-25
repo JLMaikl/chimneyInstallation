@@ -1,0 +1,27 @@
+
+header.header 
+    nav.nav 
+        a(href="/")
+            img(src="./../img/logo.svg", alt="logo").logo 
+
+        .nav-burger
+            include ./../components/header/_burger.pug
+
+        .header-nav
+            include ./../components/header/_navigation.pug
+
+            .nav-pnone 
+                span.phone-number +7 (812) 
+                    strong 509 21 98
+                a(href="#")  
+                    span.phone-call перезвоните мне
+
+        .header-icons_block
+            include ./../components/header/_icons.pug
+            include ./../components/header/_navblock.pug
+
+        
+
+
+
+

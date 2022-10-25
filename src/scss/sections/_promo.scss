@@ -1,0 +1,67 @@
+.promo-block_description {
+    max-width: 62.9rem;
+    width: 100%;
+}
+.promo-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.promo-text_link {
+    color: #E33E54;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.promo-block {
+    margin-top: 4.7rem;
+    display: flex;
+    position: relative;
+}
+
+.promo-block_h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 63px;
+}
+
+.promo-block_h2-red {
+    color: #E33E54;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.promo-block_list {
+    margin-top: 3.9rem;
+    // list-style: url(./../../img/icons/circle-1.svg);
+    margin-left: 3rem;
+}
+
+.promo-block_item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 3.9rem;
+
+    list-style-type: none;
+}
+
+.promo-block_item::before {    
+    content: url(./../../img/icons/circle-1.svg) ; 
+    padding-right: 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.promo-block_img {
+    max-width: 76.6rem;
+    position: absolute;
+    right: -16rem;
+}

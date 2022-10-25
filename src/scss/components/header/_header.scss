@@ -1,0 +1,111 @@
+.header {
+    background-color: #fff;
+    text-align: center;
+    font-style: 62px;
+    max-width: 1785px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-icons_block {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-burger {
+    margin-left: 52px;
+}
+
+.nav-pnone {
+    margin-left: 86px;
+}
+
+.nav-pnone a {
+    text-decoration: none;
+}
+
+.phone-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+}
+
+.phone-call {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #AE2236;
+    text-decoration: none;
+    border-bottom: #AE2236 3px dotted;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.nav-block_burger {
+    display: none;
+}
+
+
+@media screen and (max-width: 1770px) {
+  .header-nav{
+      flex-direction: column-reverse;    
+  }
+  
+  .navigation {
+      margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .header-icons_block{
+      flex-direction: column-reverse;    
+  }
+  
+  .nav-icons {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+    .phone-number, .phone-call  {
+        font-size: 12px; 
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .header-nav {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-burger {
+        display: none;
+    }
+
+    .logo {
+        width: 80%;
+    }
+}
