@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <div class="input-wrapper-text">
+            <p>Введите свое имя пользователя на GitHub</p>
+            <form>
+                <input class="input-name js-input" type="text" name="name" placeholder="Введите свое имя GitHub">
+                <button class="load-button js-load"> Загрузить данные </button>
+            </form>
+    
+            <div class="results-container js-results"></div>
+        </div>
+
+        <div class="input-wrapper-number">
+            <p>Введите числовое значение от 5 до 10</p>
+            <form>
+                <input class="input-name js-input_number" type="text" name="name" placeholder="Введите число">
+                <button class="load-button js-load_number"> Загрузить данные </button>
+            </form>
+    
+            <div class="results-container js-results_number"></div>
+        </div>
+
+       
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" type="module"></script>
+    <script src="scripts.js"></script>
+    <script src="scriptsNumber.js"></script>
+    <script src="lottery.js"></script>
+</body>
+</html>
